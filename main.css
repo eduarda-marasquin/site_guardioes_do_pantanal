@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline-color: #41b137;
+}
+
+
+section h1,
+h3{
+    color: #354128;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+header li{
+    display: inline;
+    margin-right: 10px;
+}
+
+header .title img{
+    width: 50px;
+}
+
+header li a{
+    text-decoration: none;
+    font-family: "Roboto Flex", sans-serif;
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+header h1{
+    padding-left: 10px;
+    padding-right: 50px;
+    font-family: "Roboto Flex", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    color: white;
+}
+
+header{
+    background-color: #3D6B35;
+    position: fixed;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 1px 10px black;
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-container h1{
+    font-family:  "Roboto Flex", sans-serif;
+    color: #fff;
+}
+
+#main{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+#main h4{
+    padding-bottom: 20px;
+}
+
+#main p{
+    font-weight: bold;
+}
+
+.queimadas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1; 
+    box-shadow: 0px 1px 10px black;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-10%, -50%); 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+
+.text-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.text-container h4 p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.text-container a,
+.container article a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2a6a2a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#about{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#about h1{
+    text-align: center;
+}
+
+.about-text{
+    position: relative;
+    top: 50%; 
+    left: 45%;
+    transform: translate(-70%, -50%); 
+    color: black; 
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 90px;
+    padding-top: 40px;
+}
+
+.tuiuiu {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    flex-shrink: 0;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.text-container a:hover,
+.container article a:hover,
+form button:hover {
+    background-color: #41b137;
+    color: #fff;
+}
+
+#projects h1,
+.container article h3{
+    text-align: center;
+}
+
+.container article p{
+    text-align: left;
+}
+
+.container article{
+    width: 30%;
+}
+
+.container article img{
+    height: 180px;
+}
+
+#projects h1,
+#projects p{
+    padding-bottom: 20px;
+}
+
+#projects article{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px black;
+    text-align: center;
+}
+
+#projects article h3{
+    padding: 20px; 
+}
+
+
+#projects article img{
+    display: block; 
+    margin: 0 auto; 
+    padding-bottom: 10px;
+}
+
+#contact h1{
+    padding: 30px;
+    text-align: center;
+}
+
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+
+.social-links a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-evenly;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form input{
+    font-family: 'Poppins', sans-serif;
+}
+
+form button{
+    background-color: #2a6a2a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+footer{
+    background-color: #3D6B35;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+
